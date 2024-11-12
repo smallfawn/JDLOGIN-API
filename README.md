@@ -32,4 +32,4 @@
     "msg":"登录风控今日上限,请于明日再来登录",
     "data": 时间戳13位
 }
-# 当SET请求为success时 轮询请求get请求 如果remark传参为空 则默认备注为ptpin的值
+# 当SET请求为success时 轮询请求get请求(最多15s )如果remark传参为空 则默认备注为ptpin的值
