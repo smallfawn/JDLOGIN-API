@@ -1,5 +1,8 @@
 # JDLOGIN-API 京东账密协议版本 DOCKER部署 
-测试地址 http://smjd.back1.idcfengye.com/
+购买地址 http://smshop.back1.idcfengye.com/
+
+体验地址 http://smjd.back1.idcfengye.com/
+
 # /api/set?username=用户名&password=密码
 {
     "status": "success",
