@@ -1,4 +1,5 @@
 # JDLOGIN-API
+测试地址 http://smjd.back1.idcfengye.com/
 # /api/set?username=用户名&password=密码
 {
     "status": "success",
