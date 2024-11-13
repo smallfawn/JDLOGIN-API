@@ -3,7 +3,7 @@
 
 体验地址 http://smjd.back1.idcfengye.com/
 
-# /api/set?username=用户名&password=密码
+# /api/set?username=用户名
 {
     "status": "success",
     "msg": "初始化成功"
@@ -14,7 +14,7 @@
     "data": 时间戳13位
 }
 每日风控超3次 禁止提交
-# /api/get?username=用户名&remark=备注
+# /api/get?username=用户名&remark=备注&password=密码
 {
     "status": "success",
     "msg": "登录成功",
