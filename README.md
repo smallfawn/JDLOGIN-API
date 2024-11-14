@@ -13,7 +13,7 @@
     "status": "risktime",
     "data": 时间戳13位
 }
-每日风控超3次 禁止提交
+每日风控超2次 禁止提交
 # /api/get?username=用户名&remark=备注&password=密码
 {
     "status": "success",
