@@ -3,7 +3,7 @@
 
 体验地址 http://smjd.back1.idcfengye.com/
 
-# /api/set?username=用户名
+# /api/set?username=用户名  用户名参数转为URL编码  encodeURIComponent(用户名)
 {
     "status": "success",
     "msg": "初始化成功"
@@ -14,7 +14,7 @@
     "data": 时间戳13位
 }
 每日风控超2次 禁止提交
-# /api/get?username=用户名&remark=备注&password=密码
+# /api/get?username=用户名&remark=备注&password=密码  encodeURIComponent(用户名,密码备注)
 {
     "status": "success",
     "msg": "登录成功",
